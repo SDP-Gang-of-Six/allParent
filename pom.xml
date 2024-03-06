@@ -11,13 +11,14 @@
 
     <modules>
 
+        <module>../feign</module>
     </modules>
 
-    <groupId>com.ps</groupId>
-    <artifactId>ps_parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>ps_parent</name>
-    <description>ps_parent</description>
+    <groupId>cn.wxl475</groupId>
+    <artifactId>allParent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>allParent</name>
+    <description>allParent</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
