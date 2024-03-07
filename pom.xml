@@ -10,7 +10,12 @@
     </parent>
 
     <modules>
-
+        <module>../user</module>
+        <module>../data</module>
+        <module>../gateway</module>
+        <module>../exam</module>
+        <module>../base</module>
+        <module>../case</module>
         <module>../feign</module>
         <module>../utils</module>
     </modules>
