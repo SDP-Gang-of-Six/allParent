@@ -15,7 +15,7 @@
         <module>../gateway</module>
         <module>../exam</module>
         <module>../base</module>
-        <module>../case</module>
+        <module>../illness</module>
         <module>../feign</module>
         <module>../utils</module>
     </modules>
