@@ -32,7 +32,7 @@
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.5</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
-        <mysql.version>8.0.33</mysql.version>
+        <mysql.version>8.2.0</mysql.version>
         <mybatis.version>2.1.1</mybatis.version>
     </properties>
 
@@ -131,8 +131,8 @@
         </dependency>
         <!--        mysql-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
             <version>${mysql.version}</version>
         </dependency>
 <!--        hikariCP连接池-->
