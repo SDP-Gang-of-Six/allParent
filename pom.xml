@@ -34,7 +34,6 @@
         <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
         <mysql.version>8.2.0</mysql.version>
         <mybatis.version>2.1.1</mybatis.version>
-        <elastic.high.level.client.version>7.15.2</elastic.high.level.client.version>
     </properties>
 
     <packaging>pom</packaging>
@@ -148,11 +147,10 @@
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.4.6</version>
         </dependency>
-<!--        elasticsearch-rest-high-level-client-->
+<!--        spring-boot-starter-data-elasticsearch-->
         <dependency>
-            <groupId>org.elasticsearch.client</groupId>
-            <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>${elastic.high.level.client.version}</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
         </dependency>
     </dependencies>
 
