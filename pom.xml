@@ -135,12 +135,6 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>${mysql.version}</version>
         </dependency>
-        <!--        hikariCP连接池-->
-        <dependency>
-            <groupId>com.zaxxer</groupId>
-            <artifactId>HikariCP</artifactId>
-            <version>5.1.0</version>
-        </dependency>
         <!--        pagehelper分页插件 -->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
