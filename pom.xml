@@ -35,7 +35,6 @@
         <mysql.version>8.2.0</mysql.version>
         <mybatis.version>2.1.1</mybatis.version>
     </properties>
-
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -99,11 +98,6 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
-        <!--        spring-data-redis-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <!--        spring-data-redis连接池依赖-->
         <dependency>
